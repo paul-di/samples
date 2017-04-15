@@ -21,10 +21,12 @@ object PiecesDisplacementsCounter {
   }
 
   private def loopOnPiecesList(pieces: List[Piece], board: Chessboard, previousPiece: Piece, previousPiecePos: Square): BigDecimal = {
+    //all pieces were put to the board. should count that displacement
     if(pieces.isEmpty) {
       return BigDecimal(1)
     }
 
+    //try to put next piece to the board recursive (to all possible positions) then sum displacements' count
     val curPiece = pieces.head
     board.freeSquares.map { curPos =>
       //second condition prevents position duplication. squares of board have ordering. pieces list also ordered.
