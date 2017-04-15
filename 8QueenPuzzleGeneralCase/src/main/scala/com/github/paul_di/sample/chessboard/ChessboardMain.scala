@@ -39,17 +39,3 @@ object PiecesDisplacementsCounter {
     board.pieces.map(_._2).exists(otherPiecePos => curPiece.isSquareUnderAttack(curPos, otherPiecePos))
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
