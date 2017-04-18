@@ -18,5 +18,5 @@ project/plugins/project/
 
 # IntellijIdea files
 *.iml
-.idea
+*.idea
 out
