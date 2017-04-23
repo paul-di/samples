@@ -6,5 +6,6 @@ scalaVersion := "2.11.10"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 
-mainClass := Some("com.github.paul_di.sample.chessboard.ChessboardMain")
-        
+mainClass := Some("com.github.paul_di.samples.chessboard.ChessboardMain")
+
+fork := true

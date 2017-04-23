@@ -1,4 +1,4 @@
-package com.github.paul_di.sample.chessboard
+package com.github.paul_di.samples.chessboard
 
 sealed abstract class Piece extends Ordered[Piece] {
   /** @return priority of  based on count of attacked squares. lower processed first */

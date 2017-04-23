@@ -1,4 +1,4 @@
-package com.github.paul_di.sample.chessboard
+package com.github.paul_di.samples.chessboard
 
 object ChessboardMain {
   def main(args: Array[String]) {

@@ -1,4 +1,4 @@
-package com.github.paul_di.sample.chessboard
+package com.github.paul_di.samples.chessboard
 
 abstract class Chessboard {
   /** @return List of pieces with positions on the board */

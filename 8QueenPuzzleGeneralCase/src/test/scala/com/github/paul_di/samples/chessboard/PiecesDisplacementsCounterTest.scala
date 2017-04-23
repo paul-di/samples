@@ -1,4 +1,4 @@
-package com.github.paul_di.sample.chessboard
+package com.github.paul_di.samples.chessboard
 
 import org.scalatest.FunSuite
 
