@@ -17,5 +17,5 @@ Csv file format:
 |    Name     |   Balance   |   isActive   | 
 | ----------- | ----------- | ------------ |
 | Alex        | 234.15      | 1            |
-| Bob		      | wrongType   | 0            |
+| Bob         | wrongType   | 0            |
 | Alisa       | 100000.00   |              |
