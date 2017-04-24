@@ -21,7 +21,7 @@ Csv file format:
 | Alisa       | 100000.00   |              |
 
 ## SQL query
-Write 1 SQL query that transforms table:
+Write exactly one SQL query that transforms table:
 
 |  id  |  name |
 | ---- | ----- |
