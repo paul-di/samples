@@ -19,3 +19,17 @@ Csv file format:
 | Alex        | 234.15      | 1            |
 | Bob         | wrongType   | 0            |
 | Alisa       | 100000.00   |              |
+
+## SQL query
+Write 1 SQL query that transforms table:
+|  id  |  name |
+| ---- | ----- |
+| 1    | name1 |
+| 2    | name2 |
+| 3    | naem3 |
+
+to table:
+
+| name1 | name2 | name3 |
+| ----- | ----- | ----- |
+| 1     | 2     | 3     |
