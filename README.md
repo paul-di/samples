@@ -22,6 +22,7 @@ Csv file format:
 
 ## SQL query
 Write 1 SQL query that transforms table:
+
 |  id  |  name |
 | ---- | ----- |
 | 1    | name1 |
