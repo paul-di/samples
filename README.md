@@ -1,11 +1,12 @@
 # Samples of my code
 ## 8QueenPuzzleGeneralCase
-Project that solving more general case of [Eight_queens_puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) (any type and count of pieces, any size of board). 
+Project that solving more general case of [Eight_queens_puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) 
+(any type and count of pieces, any size of board). 
 
 How to run (from 8QueenPuzzleGeneralCase folder, needs [SBT](http://www.scala-sbt.org/)):
 ```
 sbt "run XBoardSize YBoardSize Pieces'Names"
-sbt "run 8 8 queen queen queen queen queen queen queen"
+sbt "run 8 8 queen queen queen queen queen queen queen queen"
 sbt "run 6 9 queen king king castle bishop knight"
 ```
 
@@ -20,6 +21,12 @@ Csv file format:
 | Bob         | wrongType   | 0            |
 | Alisa       | 100000.00   |              |
 
+How to run:
+  1. Get hadoop cluster. [Local mode](http://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-common/SingleCluster.html#Hadoop:_Setting_up_a_Single_Node_Cluster.)
+  2. Set hadoop version in build.sbt (usually can skip that step)
+  3. Build jar with *sbt assembly*
+  4. hadoop -jar SimpleMapReduce-assembly-1.0.jar <input_folder> <output_folder>
+
 ## SQL query
 Write exactly one SQL query that transforms table:
 
@@ -27,10 +34,15 @@ Write exactly one SQL query that transforms table:
 | ---- | ----- |
 | 1    | name1 |
 | 2    | name2 |
-| 3    | naem3 |
+| 3    | name3 |
 
 to table:
 
 | name1 | name2 | name3 |
 | ----- | ----- | ----- |
 | 1     | 2     | 3     |
+
+How to run: http://sqlfiddle.com/ (PostgreSQL)
+
+## My StackOverFlow profile
+[paul_di](http://stackoverflow.com/users/2737635/paul-di)
