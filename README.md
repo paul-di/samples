@@ -1,4 +1,4 @@
-# Samples of my code
+# Samples of code
 ## 8QueenPuzzleGeneralCase
 Project that solving more general case of [Eight_queens_puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) 
 (any type and count of pieces, any size of board). 
