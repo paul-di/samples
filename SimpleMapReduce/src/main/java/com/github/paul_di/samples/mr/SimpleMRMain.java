@@ -64,7 +64,7 @@ public class SimpleMRMain {
 
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
       try {
-        context.write(NullWritable.get(), processCsvLine(value));
+        context.write(NullWritable.get(), genOutputRow(value));
       } catch(Exception e) {
         //logging of parsing errors is not not typical for bigdata apps. Wrong input data should be saved separately
         //or ignored (kafka appender can be used for saving when percent of errors isn't big)
@@ -72,7 +72,7 @@ public class SimpleMRMain {
       }
     }
 
-    protected OrcStruct processCsvLine(Text value) throws IOException {
+    protected OrcStruct genOutputRow(Text value) throws IOException {
       String[] parsed = csvParser.parseLine(value.toString());
       if (parsed.length != 3) {
         throw new IllegalArgumentException("Csv line has {" + parsed.length + "} elements. Expected: 3");
