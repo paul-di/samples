@@ -44,5 +44,5 @@ to table:
 
 How to run: http://sqlfiddle.com/ (PostgreSQL)
 
-## My StackOverFlow profile
+## My Stack Overflow profile
 [paul_di](http://stackoverflow.com/users/2737635/paul-di)
