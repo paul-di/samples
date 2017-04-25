@@ -25,7 +25,7 @@ How to run:
   1. Get hadoop cluster. [Local mode](http://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-common/SingleCluster.html#Hadoop:_Setting_up_a_Single_Node_Cluster.)
   2. Set hadoop version in build.sbt (usually you can skip that step)
   3. Build jar with *sbt assembly*
-  4. hadoop -jar SimpleMapReduce-assembly-1.0.jar <input_folder> <output_folder>
+  4. hadoop jar SimpleMapReduce-assembly-1.0.jar <input_folder> <output_folder>
 
 ## SQL query
 Write exactly one SQL query that transforms table:
