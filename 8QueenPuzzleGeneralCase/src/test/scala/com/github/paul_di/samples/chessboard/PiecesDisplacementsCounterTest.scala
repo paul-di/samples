@@ -9,7 +9,7 @@ class PiecesDisplacementsCounterTest extends FunSuite {
 
   test("ImpossibleDisplacement") {
     //can't put 9 queens to 8x8 board
-    assert(PiecesDisplacementsCounter.count(4,4, List.fill(9)(Queen)) == BigDecimal(0))
+    assert(PiecesDisplacementsCounter.count(8,8, List.fill(9)(Queen)) == BigDecimal(0))
   }
 
   test("AllPiecesTest") {
