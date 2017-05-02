@@ -26,23 +26,3 @@ How to run:
   2. Set hadoop version in build.sbt (usually you can skip that step)
   3. Build jar with *sbt assembly*
   4. hadoop jar SimpleMapReduce-assembly-1.0.jar <input_folder> <output_folder>
-
-## SQL query
-Write exactly one SQL query that transforms table:
-
-|  id  |  name |
-| ---- | ----- |
-| 1    | name1 |
-| 2    | name2 |
-| 3    | name3 |
-
-to table:
-
-| name1 | name2 | name3 |
-| ----- | ----- | ----- |
-| 1     | 2     | 3     |
-
-How to run: http://sqlfiddle.com/ (PostgreSQL)
-
-## My Stack Overflow profile
-[paul_di](http://stackoverflow.com/users/2737635/paul-di)
