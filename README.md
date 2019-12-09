@@ -26,3 +26,6 @@ How to run:
   2. Set hadoop version in build.sbt (usually you can skip that step)
   3. Build jar with *sbt assembly*
   4. hadoop jar SimpleMapReduce-assembly-1.0.jar <input_folder> <output_folder>
+
+## Round train
+Imagine that you are stuck inside a strange railway train. It consists of several passenger wagons only. The last wagon is connected to the first one at the round railway. You should calculate size of the train (count of wagons) to escape. You can move forward and backward inside a train and turn on or turn off light inside a visited wagon. All windows are painted black, all wagons are the same, blah, blah, blah...
